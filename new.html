@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+<form id="myForm">
+	<label for="name">Name:</label>
+	<input type="text" id="name" name="name"><br><br>
+	<label for="email">Email:</label>
+	<input type="email" id="email" name="email"><br><br>
+	<button type="button" onclick="addData()">Submit</button>
+  </form>
+  
+  <ul id="dataList">
+	<li>Name: John Doe, Email: john.doe@example.com</li>
+	<li>Name: Jane Smith, Email: jane.smith@example.com</li>
+  </ul>
+  </body>
+  </html>
+  <script>
+	js to jq
+	function addData() {
+  var name = document.getElementById("name").value;
+  var email = document.getElementById("email").value;
+  var dataList = document.getElementById("dataList");
+  var newData = document.createElement("li");
+  newData.innerHTML = "Name: " + name + ", Email: " + email;
+  dataList.appendChild(newData);
+}
+function addData() {
+	var name = $('#name').val();
+  var email = $('#email').val();
+  var dataList = $('#dataList');
+  var newData = $('<li>').html('Name: ' + name + ', Email: ' + email);
+  dataList.append(newData);
+}
+
+
+  </script>
+  
