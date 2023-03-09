@@ -8,19 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Sahil Macwan\\.nuget\\packages\\": {}
+    "C:\\Users\\goodw\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\work\\kalaatmac\\kalaatmakwebapp\\kalaatmakwebapp\\kalaatmakwebapp.csproj",
+      "projectUniqueName": "C:\\apps\\2303\\kalaatmac\\kalaatmakwebapp\\kalaatmakwebapp\\kalaatmakwebapp.csproj",
       "projectName": "kalaatmakwebapp",
-      "projectPath": "C:\\work\\kalaatmac\\kalaatmakwebapp\\kalaatmakwebapp\\kalaatmakwebapp.csproj",
-      "packagesPath": "C:\\Users\\Sahil Macwan\\.nuget\\packages\\",
-      "outputPath": "C:\\work\\kalaatmac\\kalaatmakwebapp\\kalaatmakwebapp\\obj\\",
+      "projectPath": "C:\\apps\\2303\\kalaatmac\\kalaatmakwebapp\\kalaatmakwebapp\\kalaatmakwebapp.csproj",
+      "packagesPath": "C:\\Users\\goodw\\.nuget\\packages\\",
+      "outputPath": "C:\\apps\\2303\\kalaatmac\\kalaatmakwebapp\\kalaatmakwebapp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Sahil Macwan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\goodw\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,20 +55,11 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   }
